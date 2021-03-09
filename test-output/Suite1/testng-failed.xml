@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Suite1]">
+  <test thread-count="5" verbose="3" name="prod-selenium-tcs(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Reg.*"/>
+        <exclude name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="prodTests.ProdCustomsModule">
+        <methods>
+          <include name="setUpBrowser"/>
+          <include name="prodCustSelTc2"/>
+          <include name="prodCustverifyDataTc"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- prodTests.ProdCustomsModule -->
+    </classes>
+  </test> <!-- prod-selenium-tcs(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

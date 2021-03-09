@@ -1,0 +1,6 @@
+15:00:02.397 [main] INFO  prodTests.ProdCustomsModule - Navigated to homepage!
+15:00:02.726 [main] INFO  prodTests.ProdCustomsModule - Performed search with Cedric 36
+15:00:03.747 [main] INFO  prodTests.ProdCustomsModule - Navigated to homepage!
+15:00:03.921 [main] INFO  prodTests.ProdCustomsModule - Performed search with Anne 37
+15:01:11.983 [main] INFO  prodTests.ProdCustomsModule - Navigated to homepage!
+15:01:12.273 [main] INFO  prodTests.ProdCustomsModule - Performed search with Cedric 36

@@ -1,0 +1,6 @@
+coreComponents\CommLib.class
+coreComponents\WebDriverFactory.class
+webPageObjects\HomePage.class
+web_api_automation_fw\App.class
+coreComponents\TestngToolBox.class
+resources\ExtentReportNG.class

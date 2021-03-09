@@ -1,0 +1,228 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-09T20:14:33.648Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2435000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.PhpTravelsLoginTest.driverSetup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verification of broken links in home page",
+        "description": "",
+        "id": "broken-link-check;verification-of-broken-links-in-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 671000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.PhpTravelsLoginTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3597000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open the browser and land in home page",
+            "match": {
+              "location": "stepDefinitions.PhpTravelsLoginTest.open_the_browser_and_land_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1733000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on all the available links",
+            "match": {
+              "location": "stepDefinitions.PhpTravelsLoginTest.click_on_all_the_available_links()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "No link should be broken",
+            "match": {
+              "location": "stepDefinitions.PhpTravelsLoginTest.No_link_should_be_broken()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Broken Link Check",
+    "description": "",
+    "id": "broken-link-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/brokenLinkCheck.feature",
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-09T20:14:42.169Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1155000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.PhpTravelsLoginTest.driverSetup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verification of students user login",
+        "description": "",
+        "id": "students-login;verification-of-students-user-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 719000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.PhpTravelsLoginTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3660000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open the browser and land in home page",
+            "match": {
+              "location": "stepDefinitions.PhpTravelsLoginTest.open_the_browser_and_land_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7307000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User  enters \"invalid\" \"u@phptravels.com\" and \"demouser\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalid\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"u@phptravels.com\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"demouser\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinitions.PhpTravelsLoginTest.user_enters_and_details(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Home page navigation is \"invalid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalid\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.PhpTravelsLoginTest.home_page_navigation_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Display the user name \"NA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NA\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinitions.PhpTravelsLoginTest.display_the_user_name(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Students Login",
+    "description": "",
+    "id": "students-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/studentsLogin.feature",
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

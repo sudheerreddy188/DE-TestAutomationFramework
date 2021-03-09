@@ -1,0 +1,179 @@
+16:46:59.816 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+16:46:59.935 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+16:47:00.734 INFO [Hub.start] - Selenium Grid hub is up and running
+16:47:00.736 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+16:47:00.736 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+17:29:45.836 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+17:29:45.947 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 35104
+17:29:46.342 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+17:29:46.416 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 35104
+17:29:46.416 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+17:29:46.464 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+17:29:48.696 WARN [SelfRegisteringRemote.registerToHub] - Error getting the parameters from the hub. The node may end up with wrong timeouts.Failed to connect to /192.168.0.9:4444
+17:29:48.698 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://192.168.0.9:4444/grid/register
+17:29:50.727 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: Error sending the registration request: Failed to connect to /192.168.0.9:4444
+17:29:57.740 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:30:04.747 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:30:11.755 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:30:18.770 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:30:25.783 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:30:32.806 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:30:39.819 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:30:46.831 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:30:53.842 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:31:00.857 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:31:07.877 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:31:14.890 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:31:21.934 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:31:28.954 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:31:35.966 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:31:42.983 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:31:49.991 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:31:57.000 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:32:04.012 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:32:11.027 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:32:18.048 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:32:25.057 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:32:32.068 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:32:39.078 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:32:46.089 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:32:51.297 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://192.168.0.9:4444/grid/register
+17:32:51.351 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+17:34:38.816 INFO [SelfRegisteringRemote$1.run] - Couldn't register this node: The hub is down or not responding: Failed to connect to /192.168.0.9:4444
+17:41:05.916 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+17:41:05.998 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+17:41:06.686 INFO [Hub.start] - Selenium Grid hub is up and running
+17:41:06.688 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+17:41:06.688 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+17:41:17.214 INFO [DefaultGridRegistry.add] - Registered a node http://192.168.0.9:37480
+17:43:56.106 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, platform: WINDOWS}
+17:43:56.110 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=754a17a6-a2e4-4797-b9eb-0cc1e07bd1cf, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=5, platformName=WIN10, platform=WIN10}
+18:54:57.614 INFO [DefaultRemoteProxy.onEvent] - Marking the node http://192.168.0.9:37480 as down: cannot reach the node for 2 tries
+18:56:03.153 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+18:56:03.236 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+18:56:03.269 INFO [Hub.<init>] - binding org.openqa.grid.web.servlet.LifecycleServlet to /grid/admin/LifecycleServlet/*
+18:56:03.896 INFO [Hub.start] - Selenium Grid hub is up and running
+18:56:03.898 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+18:56:03.898 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+19:00:05.293 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+19:00:05.384 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+19:00:05.418 INFO [Hub.<init>] - binding org.openqa.grid.web.servlet.LifecycleServlet to /grid/admin/LifecycleServlet/*
+19:00:06.069 INFO [Hub.start] - Selenium Grid hub is up and running
+19:00:06.070 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+19:00:06.071 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+19:02:23.699 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+19:02:23.786 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+19:02:23.820 INFO [Hub.<init>] - binding org.openqa.grid.web.servlet.LifecycleServlet to /grid/admin/LifecycleServlet/*
+19:02:24.454 INFO [Hub.start] - Selenium Grid hub is up and running
+19:02:24.456 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+19:02:24.456 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+19:02:34.991 INFO [DefaultGridRegistry.add] - Registered a node http://192.168.0.9:2428
+19:08:27.431 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+19:08:27.517 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+19:08:27.552 INFO [Hub.<init>] - binding org.openqa.grid.web.servlet.LifecycleServlet to /grid/admin/LifecycleServlet/*
+19:08:28.195 INFO [Hub.start] - Selenium Grid hub is up and running
+19:08:28.197 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+19:08:28.197 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+19:08:38.520 INFO [DefaultGridRegistry.add] - Registered a node http://192.168.0.9:43005
+15:19:28.096 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+15:19:28.352 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+15:19:29.520 INFO [Hub.start] - Selenium Grid hub is up and running
+15:19:29.521 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+15:19:29.522 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+15:19:31.485 INFO [DefaultGridRegistry.add] - Registered a node http://192.168.0.9:43005
+15:23:47.647 INFO [DefaultRemoteProxy.onEvent] - Marking the node http://192.168.0.9:43005 as down: cannot reach the node for 2 tries
+15:24:50.743 INFO [DefaultRemoteProxy.onEvent] - Unregistering the node http://192.168.0.9:43005 because it's been down for 63096 milliseconds
+15:24:50.743 WARN [DefaultGridRegistry.removeIfPresent] - Cleaning up stale test sessions on the unregistered node http://192.168.0.9:43005
+15:25:37.446 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+15:25:37.544 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+15:25:38.901 INFO [Hub.start] - Selenium Grid hub is up and running
+15:25:38.902 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+15:25:38.902 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+17:20:30.519 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+17:20:30.602 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+17:20:31.278 INFO [Hub.start] - Selenium Grid hub is up and running
+17:20:31.280 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+17:20:31.280 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+17:20:42.053 INFO [DefaultGridRegistry.add] - Registered a node http://192.168.0.9:5566
+17:24:41.175 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, platform: WINDOWS}
+17:24:41.180 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=4b924929-1f30-45df-9524-7430a029ece5, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=5, platformName=WIN10, platform=WIN10}
+12:50:39.911 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+12:50:40.012 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+12:50:41.321 INFO [Hub.start] - Selenium Grid hub is up and running
+12:50:41.322 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+12:50:41.322 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+12:50:53.643 INFO [DefaultGridRegistry.add] - Registered a node http://192.168.0.9:5566
+12:51:27.610 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, platform: WINDOWS}
+12:51:27.613 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=f27cf2a3-4c2b-413c-b872-2ff1be75a964, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=5, platformName=WIN10, platform=WIN10}
+12:01:48.125 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+12:01:48.257 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+12:01:49.476 INFO [Hub.start] - Selenium Grid hub is up and running
+12:01:49.477 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+12:01:49.477 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+12:02:01.369 INFO [DefaultGridRegistry.add] - Registered a node http://192.168.0.9:5566
+12:02:36.261 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, platform: WINDOWS}
+12:02:36.265 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=bbf54060-3c84-4827-86c7-cb4bf2a46255, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=5, platformName=WIN10, platform=WIN10}
+12:17:35.466 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+12:17:35.595 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+12:17:36.760 INFO [Hub.start] - Selenium Grid hub is up and running
+12:17:36.760 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+12:17:36.761 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+12:17:49.009 INFO [DefaultGridRegistry.add] - Registered a node http://192.168.0.9:5566
+12:18:23.033 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, platform: WINDOWS}
+12:18:23.036 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=1471649c-cd27-4369-a3d8-8b4cff4bf482, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=5, platformName=WIN10, platform=WIN10}
+12:43:16.368 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+12:43:16.491 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+12:43:17.745 INFO [Hub.start] - Selenium Grid hub is up and running
+12:43:17.746 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+12:43:17.746 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+12:43:28.993 INFO [DefaultGridRegistry.add] - Registered a node http://192.168.0.9:5566
+12:44:05.913 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, platform: WINDOWS}
+12:44:05.918 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=e98efb9f-7c5f-4152-b49e-041f8c04f66c, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=5, platformName=WIN10, platform=WIN10}
+21:06:18.129 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+21:06:18.261 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+21:06:19.464 INFO [Hub.start] - Selenium Grid hub is up and running
+21:06:19.465 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+21:06:19.465 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+21:06:31.011 INFO [DefaultGridRegistry.add] - Registered a node http://192.168.0.9:5566
+21:07:02.756 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, platform: WINDOWS}
+21:07:02.759 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=dbf128b1-40a8-4e20-98e1-913d55b6d824, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=5, platformName=WIN10, platform=WIN10}
+21:56:59.385 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+21:56:59.487 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+21:57:00.588 INFO [Hub.start] - Selenium Grid hub is up and running
+21:57:00.588 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+21:57:00.589 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+21:57:12.008 INFO [DefaultGridRegistry.add] - Registered a node http://192.168.0.9:5566
+21:57:46.033 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, platform: WINDOWS}
+21:57:46.036 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=24b3c313-7c47-4acb-96a4-b292925bc59c, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=5, platformName=WIN10, platform=WIN10}
+22:04:53.674 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+22:04:53.770 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+22:04:54.820 INFO [Hub.start] - Selenium Grid hub is up and running
+22:04:54.821 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+22:04:54.821 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+22:05:06.119 INFO [DefaultGridRegistry.add] - Registered a node http://192.168.0.9:5566
+22:05:44.404 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, platform: WINDOWS}
+22:05:44.407 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=2a0ad003-d6ee-4560-b0a1-e7c61dc29966, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=5, platformName=WIN10, platform=WIN10}
+23:15:56.496 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+23:15:56.590 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+23:15:57.845 INFO [Hub.start] - Selenium Grid hub is up and running
+23:15:57.845 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+23:15:57.846 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+23:16:08.803 INFO [DefaultGridRegistry.add] - Registered a node http://192.168.0.9:5566
+23:16:43.255 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, platform: WINDOWS}
+23:16:43.263 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=a78a67c5-3ca5-4bf5-bf61-c408f5a6e5fa, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=5, platformName=WIN10, platform=WIN10}
+23:27:53.589 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+23:27:53.685 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+23:27:54.944 INFO [Hub.start] - Selenium Grid hub is up and running
+23:27:54.944 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+23:27:54.945 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+23:28:06.657 INFO [DefaultGridRegistry.add] - Registered a node http://192.168.0.9:5566
+23:28:40.568 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, platform: WINDOWS}
+23:28:40.572 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=7a58c719-e90a-400b-ad12-089f2f7d1bf1, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=5, platformName=WIN10, platform=WIN10}
+20:12:40.358 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+20:12:40.462 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+20:12:41.583 INFO [Hub.start] - Selenium Grid hub is up and running
+20:12:41.584 INFO [Hub.start] - Nodes should register to http://192.168.0.9:4444/grid/register/
+20:12:41.584 INFO [Hub.start] - Clients should connect to http://192.168.0.9:4444/wd/hub
+20:13:00.463 INFO [DefaultGridRegistry.add] - Registered a node http://192.168.0.9:5566
+20:13:53.496 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, platform: WINDOWS}
+20:13:53.499 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=38272452-f34e-44fc-8a38-bec7caade636, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=5, platformName=WIN10, platform=WIN10}

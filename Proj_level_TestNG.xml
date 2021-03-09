@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  <test name="web_api_automation_fw test package via TestNG1" junit="true">
+    <classes>
+       <class name="web_api_automation_fw.AppTest" />
+    </classes>
+  </test>
+  
+   <test name="web_api_automation_fw test package via TestNG2" junit="false" >
+    <classes>
+       <class name="web_api_automation_fw.TestNGDemo" />
+    </classes>
+  </test>
+ 
+</suite>

@@ -1,0 +1,65 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<!--useful-comments 
+	 parallel="methods" thread-count="3" -(methods/classes/tests/suites)
+	 group-by-instances="true" -(saves the order at suite/test* level)
+	 preserve-order="true" -(keeps the order of classes)
+	 <parameter name ="browserName" value="chrome"/> -(can use at suite/test/class/method level)
+	  
+	
+
+
+-->
+  
+<suite name="Production-Suite1" verbose="3" preserve-order="true">
+
+  <!--  comment -->
+
+  <listeners>
+	<listener class-name="coreComponents.TestngToolBox"/>
+	<listener class-name="resources.ExtentReportNG"/>
+  </listeners>
+  
+  <test name="prod-selenium-tcs" >
+   <parameter name ="browserName" value="chrome"/>
+  <!--     -->
+   <groups>
+    <run>
+      <exclude name="Smoke"/>
+      <include name= "Regression"/>
+    </run>
+   </groups>
+
+    <classes>
+       <class name="prodTests.ProdCustomsModule" />
+       <class name="prodTests.ProdTaxModule">
+       	   <parameter name ="browserName" value="ie"/>
+       </class>
+    </classes>
+  </test>
+<!--  -->
+
+<!-- 
+  <test name="uat-selenium-tcs" >
+   <parameter name ="browserName" value="chrome"/>
+    <classes>
+       <class name="uatTests.UatCustomsModule" />
+       <class name="uatTests.UatTaxModule">
+       	   <parameter name ="browserName" value="ie"/>
+       </class>
+    </classes>
+  </test>
+
+  <test name="sit-selenium-tcs" >
+   <parameter name ="browserName" value="chrome"/>
+    <classes>
+       <class name="sitTests.SitCustomsModule" />
+       <class name="sitTests.SitTaxModule">
+       	   <parameter name ="browserName" value="ie"/>
+       </class>
+    </classes>
+  </test>
+ -->
+
+ 
+</suite>

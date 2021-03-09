@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="24.602">
+<testcase classname="Broken Link Check" name="Verification of broken links in home page" time="8.459">
+<system-out><![CDATA[Given Open the browser and land in home page................................passed
+When Click on all the available links.......................................passed
+Then No link should be broken...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Students Login" name="Verification of students user login" time="15.849">
+<system-out><![CDATA[Given Open the browser and land in home page................................passed
+When User  enters "invalid" "u@phptravels.com" and "demouser" details.......passed
+Then Home page navigation is "invalid"......................................passed
+And Display the user name "NA"..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

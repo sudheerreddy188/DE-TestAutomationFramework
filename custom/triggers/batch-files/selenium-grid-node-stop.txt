@@ -1,0 +1,16 @@
+
+D:\Framework Development_2nd_Jan_2021\web-api-automation-proj\custom\triggers\batch-files>TaskKill.exe /PID 37924 /F 
+SUCCESS: The process with PID 37924 has been terminated.
+
+D:\Framework Development_2nd_Jan_2021\web-api-automation-proj\custom\triggers\batch-files>TaskKill.exe /PID 0 /F 
+
+D:\Framework Development_2nd_Jan_2021\web-api-automation-proj\custom\triggers\batch-files>TaskKill.exe /PID 37924 /F 
+
+D:\Framework Development_2nd_Jan_2021\web-api-automation-proj\custom\triggers\batch-files>TaskKill.exe /PID 37924 /F 
+
+D:\Framework Development_2nd_Jan_2021\web-api-automation-proj\custom\triggers\batch-files>TaskKill.exe /PID 37456 /F 
+SUCCESS: The process with PID 37456 has been terminated.
+
+D:\Framework Development_2nd_Jan_2021\web-api-automation-proj\custom\triggers\batch-files>TaskKill.exe /PID 37456 /F 
+
+D:\Framework Development_2nd_Jan_2021\web-api-automation-proj\custom\triggers\batch-files>TaskKill.exe /PID 37924 /F 
