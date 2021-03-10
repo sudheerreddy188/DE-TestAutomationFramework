@@ -10,11 +10,11 @@ Scenario Outline: Verification of students user login
 
 # Four possible combinations for a login scenario (3 invalid and 1 valid)	
 Examples:
-		|UserName		    |Password|Credentials|HomePageDisplayName|
-		|u@phptravels.com   |demouser|invalid	 |NA				 |
-#		|user@phptravels.com|duser   |invalid	 |NA				 |
-#		|u@phptravels.com	|duser   |invalid	 |NA				 |
-#		|user@phptravels.com|demouser|valid		 |Demo				 |
+		|UserName		     |Password|Credentials|HomePageDisplayName|
+		|u@phptravels.com   	     |demouser|invalid	  |NA		      |
+#		|user@phptravels.com	     |duser   |invalid    |NA		      |
+#		|u@phptravels.com	     |duser   |invalid	  |NA		      |
+#		|user@phptravels.com	     |demouser|valid      |Demo		      |
 
 
 
