@@ -12,9 +12,9 @@ Scenario Outline: Verification of students user login
 Examples:
 		|UserName		     |Password|Credentials|HomePageDisplayName|
 		|u@phptravels.com   	     |demouser|invalid	  |NA		      |
-#		|user@phptravels.com	     |duser   |invalid    |NA		      |
-#		|u@phptravels.com	     |duser   |invalid	  |NA		      |
-#		|user@phptravels.com	     |demouser|valid      |Demo		      |
+		|user@phptravels.com	     |duser   |invalid    |NA		      |
+		|u@phptravels.com	     |duser   |invalid	  |NA		      |
+		|user@phptravels.com	     |demouser|valid      |Demo		      |
 
 
 
