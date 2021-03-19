@@ -107,7 +107,7 @@ public class ScriptStoreTest extends CommLib{
 
 		if(cred_validity.equalsIgnoreCase("valid")) {
 			System.out.println("User name is displayed in the home page!");
-			assertTrue("HomePage check for user with valid credentials->> Success", loc_driver.get().findElement(By.xpath("//h3[contains(text(),'Hi, "+ string +" User')]")).getText().equalsIgnoreCase("Hi, Demo User"));
+			assertTrue("HomePage check for user with valid credentials->> Success", loc_driver.get().findElement(By.xpath("//h3[contains(text(),'Hi')]")).getText().equalsIgnoreCase("Hi, Demo User"));
 		}	
 	}
 	
