@@ -246,6 +246,12 @@
 					        <jsonFiles>
 					          <jsonFile>**/cucumber*.json</jsonFile>
 					        </jsonFiles>
+						<classificationFiles>
+							<param>**/classifications/*.properties</param>
+						</classificationFiles>
+						<parallelTesting>false</parallelTesting>
+						<buildSuccessOnTestFailure>true</buildSuccessOnTestFailure>						      
+						      
 					      </configuration>
 					    </execution>
 					  </executions>
